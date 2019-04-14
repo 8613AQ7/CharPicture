@@ -51,4 +51,5 @@ def getPicture(path):
         f.write(picture)
         
 if __name__ == '__main__':
-    getPicture('picture.png')
+    getPicture(input("请输入图片路径："))
+    input('转换结束 任意键关闭...')
